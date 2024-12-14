@@ -1,0 +1,17 @@
+{
+  "name": "ghartak",
+  "version": "1.0.0",
+  "description": "**Ghar Tak** is a service platform bridging urban and rural communities by connecting urban users with reliable, verified rural workers for household tasks like plumbing, cleaning, and repairs. The platform addresses common issues like high service fees, low worker incentives, and limited availability. By simplifying access to affordable help while providing fair compensation and incentives for rural workers, Ghar Tak aims to transform the gig economy.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "node": "^23.4.0"
+  },
+  "devDependencies": {}
+}
