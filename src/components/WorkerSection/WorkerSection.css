@@ -1,0 +1,108 @@
+.worker-section {
+  padding: 100px 0;
+  background: #ffffff;
+}
+
+.worker-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.worker-header {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.worker-header h2 {
+  font-size: 2.5rem;
+  color: #1e293b;
+  margin-bottom: 1rem;
+}
+
+.worker-header p {
+  font-size: 1.25rem;
+  color: #64748b;
+}
+
+.worker-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.worker-card {
+  background: white;
+  border-radius: 1rem;
+  overflow: hidden;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  transition: transform 0.3s ease;
+}
+
+.worker-card:hover {
+  transform: translateY(-5px);
+}
+
+.worker-image {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.worker-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.worker-info {
+  padding: 1.5rem;
+}
+
+.worker-info h3 {
+  font-size: 1.25rem;
+  color: #1e293b;
+  margin-bottom: 0.5rem;
+}
+
+.profession {
+  color: #64748b;
+  margin-bottom: 1rem;
+}
+
+.worker-stats {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.rating, .jobs {
+  color: #64748b;
+  font-size: 0.875rem;
+}
+
+.hire-btn {
+  width: 100%;
+  padding: 0.75rem;
+  background: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.hire-btn:hover {
+  background: #1d4ed8;
+}
+
+@media (max-width: 768px) {
+  .worker-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .worker-header h2 {
+    font-size: 2rem;
+  }
+} 
